@@ -6,9 +6,9 @@ class BookList extends Component {
         return ( 
             <div>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>the way of kings</li>
+                    <li>the name of the wind</li>
+                    <li>the final empire</li>
                 </ul>
             </div>
          );
