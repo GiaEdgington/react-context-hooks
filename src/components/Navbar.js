@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
+import { ThemeContext } from '../context/ThemeContext';
 
 
 class Navbar extends Component {
+    static contextType = ThemeContext;
     render() { 
         return ( 
             <nav>
