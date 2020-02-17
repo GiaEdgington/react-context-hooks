@@ -5,7 +5,8 @@ import { ThemeContext } from '../context/ThemeContext';
 class Navbar extends Component {
     static contextType = ThemeContext;
     render() { 
-        return ( 
+        //console.log(this.context);
+        const { isLightTheme, light, dark} = this.context;        return ( 
             <nav>
                 <h1>Context App</h1>
                 <ul>
